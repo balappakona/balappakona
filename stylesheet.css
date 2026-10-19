@@ -1,0 +1,415 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	background:url(images/mainbg_01.jpg);
+}
+#top1{
+	width:1029px;
+	height:30px;
+	margin:0px auto;
+	padding:0px;
+	background:url(images/hed_top.jpg) no-repeat ;
+}
+#container{
+	width:1029px;
+	height:auto;
+	margin:0px auto;
+	padding-left:0px;
+	background:url(images/container_repeat_03.jpg) repeat-y;
+}
+#header{
+	width:973px;
+	height:115px;
+	margin-left:28px;
+	padding:0px;
+	
+	
+}
+#header-left{
+	width:500px;
+	height:115px;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+#header-right{
+	width:400px;
+	height:115px;
+	margin:0px;
+	padding:0px;
+	float:right;
+	
+}
+#header-right ul{
+	display:inline;
+}
+#header-right li{
+	float:left;
+	list-style:none;
+		float:right;
+		margin:0px;
+		padding:50px 0px 0px 0px;
+}
+#header-right li a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#393939;
+	margin:0px 10px;
+	padding:0px;
+}
+#header-right a:hover{
+	color:#F00;
+}
+
+#nav{
+	width:973px;
+	height:31px;
+	margin:0px 0px 5px 28px;
+	padding:0px;
+	background:url(images/nav_07.jpg);
+}
+
+#nav ul{
+	display:inline;
+}
+#nav li{
+	float:left;
+	list-style:none;
+	
+}
+#nav li a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#393939;
+	margin:0px 17px;
+	padding:0px;
+	line-height:31px;
+}
+#nav a:hover{
+	color:#F00;
+}
+
+#banner{
+	width:973px;
+	height:285px;
+	margin:0px 0px 10px 28px;
+	padding:0px;
+	
+}
+
+#body{
+	width:973px;
+	height:auto;
+	margin:0px 0px 0px 28px ;
+	padding:0px;
+	overflow:hidden;
+}
+
+#body-left{
+	width:674px;
+	height:auto;
+	margin:0px 0px 0px 0px;
+	padding:0px;	
+	float:left;
+	overflow:hidden;
+}
+
+#body-right{
+	width:273px;
+	height:353px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	float:right;
+	border:1px solid #ffd08e;
+}
+#cont_left{
+	width:300px;
+	height:auto;
+	margin:0px;
+	padding:0px;	
+	float:left;
+}
+#cont_right{
+	width:300px;
+	height:auto;
+	margin:0px;
+	padding:0px 0px 0px 0px;	
+	float:right;
+}
+#sarpanch p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:393939;
+	text-align:justify;
+	margin:0px;
+	padding:20px 10px 60px 10px;
+}
+#hedbg{
+	background:url(images/sidehed1.jpg);
+	margin:0px;
+	padding:0px;
+}
+#hedbg h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#603;
+	margin:0px;
+	font-style:normal;
+	font-weight:normal;
+	padding:0px 0px 0px 58px;
+}
+
+#body-lefttop{
+	width:674px;
+	height:150px;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	
+}
+#body-leftdown{
+	width:674px;
+	height:197px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+
+	
+}
+
+#body-leftdownl{
+	width:410px;
+	height:187px;
+	margin:0px;
+	padding:0px 10px 0px 10px;
+	float:left;
+	border:1px solid #ffefe3;
+	
+}
+#body-leftdownr{
+	width:225px;
+	height:187px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	float:right;
+	border:1px solid #ffefe3;
+	
+}
+
+
+.h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	color:#000;
+}
+.h2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	margin:0px;
+	padding:10px 0px 0px 10px;
+	color:#d35c27;
+}
+#body-lefttop p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:justify;
+	line-height:18px;
+	color:393939;
+}
+#body-lefttop p a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	float:right;
+	text-decoration:underline;
+	margin:0px;
+	padding:0px;
+}
+
+#body-lefttop p a:hover{
+	color:#F00;
+	text-decoration:none;}
+
+
+#footer{
+	width:973px;
+	height:34px;
+	margin:0px 0px 0px 28px;
+	padding:0px;
+	background:#e6a040;
+	
+}
+#footer-left{
+	width:674px;
+	height:34px;
+	margin:0px ;
+	padding:0px;
+	float:left;	
+}
+
+#footer-left p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#151515;
+	font-weight:normal;
+	line-height:34px;
+	margin:0px;
+	padding:0px 0px 0px 10px;
+	text-decoration:none;
+	
+}
+
+#footer-left p a{
+	font:Arial, Helvetica, sans-serif;
+	color:#F00;
+	text-decoration:none;
+	display:inline;
+	
+}
+#footer-left a:hover{
+	color:#FFF;
+	text-decoration:underline;
+	
+}
+#footer-right{
+	width:275px;
+	height:34px;
+	margin:0px ;
+	padding:0px;
+	float:right;	
+}
+
+#footer-right a{
+	margin:4px 20px 0px 0px;
+	padding: 0px;
+	float:right;
+}
+
+.more{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+	text-decoration:none;
+}
+
+
+.h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	color:#d35c27;
+}
+
+.h4{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	color:#960;
+}
+
+.p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	line-height:18px;
+	text-align:justify;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+
+#welcome{
+		margin:15px 0px 0px 0px;
+			padding:0px;
+		height:auto;
+		width:674px;
+		border-bottom:1px solid #999;
+		}
+
+
+
+.imgpaddslide{
+	padding:5px;
+	}
+
+
+#donor{
+	padding:15px;
+}
+#gallery{
+	padding:15px;
+}
+
+#kartika{
+	padding:15px;
+}
+
+#table{
+	margin: 0px;
+	padding: 0px;
+}
+#sitemap{
+	height:auto;
+	
+}
+#sitemap ul{
+	list-style:circle;
+}
+
+
+#sitemap li a{
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:25px;
+	color:#393939;
+	
+}
+#sitemap li a:hover{
+	color:#FC0;
+	
+}
+.history {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#393939;
+	
+	
+}
+	
+.history a{ text-decoration:none; color:#393939}
+
+.history a:hover{ text-decoration:underline; color:#F90;}
+
+#map{
+	width:674px;
+	height:auto;
+	margin-left:80px;
+	padding:0px;	
+	float:left;
+	overflow:hidden;
+}
+
+
